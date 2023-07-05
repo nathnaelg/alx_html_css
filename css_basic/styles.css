@@ -1,0 +1,66 @@
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    padding: 20px;
+}
+
+article {
+    flex: 2;
+    overflow-y: auto;
+}
+
+aside {
+    flex: 1;
+    overflow-y: auto;
+}
+
+header {
+    background-color: #fff;
+    padding: 8px;
+}
+
+.works_on_smartphone {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #d1b70d;
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+h1.logo {
+    font-size: 24px;
+    margin: 0;
+}
+
+.logo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
