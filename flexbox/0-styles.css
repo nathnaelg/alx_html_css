@@ -378,6 +378,13 @@ ul.row {
     display: flex;
 }
 
+[class*='col-'] {
+
+    flex: 1;
+    padding: 15px;
+
+}
+
 .col-1-3 {
     width: 33.33%;
 }
