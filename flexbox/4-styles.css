@@ -384,7 +384,7 @@ ul.row {
 }
 
 .col-1-2 {
-    width: calc((100% / 3) - 2rem);
+    width: calc((100% / 2) - 2rem);
 }
 
 /* Navbar
