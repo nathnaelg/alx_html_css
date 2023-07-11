@@ -389,10 +389,11 @@ ul.row {
     padding: 0;
     list-style: none;
     text-align: center;
+
 }
 
 .nav .nav-item+.nav-item {
-    margin: 0 0 0 2rem;
+    margin: var(--nav-item-margin);
 }
 
 .nav .nav-item {
