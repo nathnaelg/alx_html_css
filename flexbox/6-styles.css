@@ -398,7 +398,7 @@ ul.row {
 }
 
 .nav .nav-item .nav-item {
-    margin: var(--nav-item-margin);
+    margin: 0 0 0 2rem;
 }
 
 
