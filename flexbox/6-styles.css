@@ -244,11 +244,6 @@ template {
     --nav-item-margin: 0 0 0 2rem;
     --nav-item-link-hover: var(--color-white);
 
-    --nav .nav-item+.nav-item {
-        margin: 0 0 0 2rem;
-    }
-
-
     /** BUTTON **/
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -394,13 +389,11 @@ ul.row {
     padding: 0;
     list-style: none;
     text-align: center;
-
 }
 
-.nav .nav-item .nav-item {
+.nav .nav-item+.nav-item {
     margin: 0 0 0 2rem;
 }
-
 
 .nav .nav-item {
     font-family: var(--nav-item-font-family);
