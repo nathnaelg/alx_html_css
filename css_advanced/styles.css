@@ -1,0 +1,472 @@
+/* VARIABLES */
+:root {
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-alternative: #071629;
+    --color-main: #C271FF;
+    --before-color: #ffffff85;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 35.02px 10%;
+    background-color: transparent;
+    position: absolute;
+    width: 1103.41px;
+}
+
+header div {
+    display: flex;
+    width: 234px;
+    height: 15px;
+    justify-content: space-between;
+
+}
+
+header div a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 15px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+header a:hover {
+    color: var(--color-main)
+}
+
+/* MAIN */
+main {
+    color: var(--color-white);
+    font-family: "Source Sans Pro";
+}
+
+/* HERO SECTION */
+main .hero {
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 220px;
+    padding-bottom: 98px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+main .hero h1 {
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 151px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0px;
+}
+
+main .hero>p {
+    display: flex;
+    justify-content: space-between;
+    width: 248px;
+    margin: 0 auto;
+}
+
+main .hero>p span {
+
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+main .hero .register {
+    margin-top: 38px;
+}
+
+.register {
+    width: 162px;
+    height: 44px;
+    background-color: var(--color-main);
+    border-radius: 20px;
+    color: var(--color-white);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.register:hover {
+    color: var(--color-alternative);
+}
+
+main .hero>div:last-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 168px;
+}
+
+main .hero>div:last-child>h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+}
+
+.special-text {
+    color: var(--color-main);
+    font-weight: 700;
+}
+
+main .hero .pros {
+    display: flex;
+    margin-top: 87px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 1009px;
+    height: 237px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main .hero .pros div {
+    width: 150px;
+    height: 237px;
+}
+
+
+main .hero .pros div img {
+    border-radius: 50%;
+}
+
+main .hero .pros div h3 {
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+}
+
+main .hero .pros div p {
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin: 0;
+}
+
+main .hero .pros div span {
+    display: block;
+}
+
+/* QUOTE */
+.quote {
+    background-color: var(--color-main);
+    display: flex;
+    height: 392px;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+}
+
+.quote img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+
+.quote div {
+    width: 740px;
+}
+
+.quote q {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.quote h3 {
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.quote p {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+}
+
+/* TUTORIALS */
+
+.tutorials {
+    color: var(--color-black);
+    margin-top: 87px;
+}
+
+.tutorials h2 {
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: var(--color-alternative);
+}
+
+.tutorials .videos {
+    display: flex;
+    width: 1112px;
+    height: 335px;
+    margin: 75px auto 0;
+    justify-content: space-between;
+}
+
+.tutorials .videos>div {
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 335px;
+    border-radius: 6px;
+}
+
+.tutorials .video>img {
+    position: relative;
+}
+
+.tutorials .video {
+    position: relative;
+}
+
+.tutorials .video::after {
+    content: "";
+    background-image: url("images/play.png");
+    width: 64px;
+    height: 64px;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    cursor: pointer;
+}
+
+.tutorials .video h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 18px;
+    margin-left: 13px;
+    margin-bottom: 0;
+}
+
+.tutorials .video>p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #07162980;
+    margin-left: 13px;
+    margin-top: 7.6px;
+    margin-bottom: 0;
+}
+
+.tutorials .video .video-reviewer {
+    display: flex;
+    align-items: center;
+    margin-left: 13px;
+    margin-top: 15.4px;
+    gap: 13px;
+}
+
+.tutorials .video .video-reviewer img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.tutorials .video .video-reviewer h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: var(--color-main);
+    margin: 0;
+}
+
+.tutorials .video .video-review {
+    margin-left: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 14px;
+    position: relative;
+}
+
+.tutorials .video .video-review * {
+    margin: 0;
+    color: var(--color-main);
+}
+
+.tutorials .video .video-review::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 107px;
+    background-color: var(--before-color);
+}
+
+/* MEMBERSHIP */
+.membership {
+    margin-top: 87px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--color-alternative);
+    padding-top: 70px;
+    height: 502px;
+}
+
+.membership>div {
+    display: flex;
+    margin: 58px auto 85px;
+    justify-content: space-between;
+}
+
+.membership>div>div {
+    width: 257px;
+    height: 153px;
+}
+
+/* FAQ */
+.faq {
+    margin-top: 67px;
+    display: flex;
+    flex-direction: column;
+    color: #071629;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 75px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.faq .container {
+    margin: 74px auto 84px;
+    display: flex;
+    flex-direction: column;
+    width: 920px;
+    gap: 74px;
+}
+
+.faq .container .sub-container {
+    display: flex;
+    text-align: start;
+    justify-content: space-between;
+}
+
+.faq .container .sub-container div {
+    width: 350px;
+    height: 242px;
+}
+
+.faq .container .sub-container div h3 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin: 0;
+}
+
+.faq .container .sub-container div p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #07162980;
+    margin: 30px 0 0;
+}
+
+
+
+
+
+/* FOOTER */
+
+footer {
+    background: #071629;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer .nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .container {
+    padding: 4rem 4rem 3rem 4rem;
+    flex-wrap: wrap;
+}
+
+footer p {
+    font-size: var(--font-small);
+    font-family: var(--font);
+    margin: 3rem auto 0;
+    width: 100%;
+    text-align: center;
+    opacity: 0.35;
+}
+
+.footer-nav {
+    display: inline-flex;
+    margin: auto 0;
+    padding: 0;
+    font-weight: bolder;
+    font-family: var(--font);
+    list-style-type: none;
+    font-size: var(--font-large);
+
+}
+
+.footer-nav li {
+    margin: 0 0.5rem;
+}
