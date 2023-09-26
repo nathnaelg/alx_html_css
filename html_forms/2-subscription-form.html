@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Subscription Form</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <h1>Subscription Form</h1>
+  <form action="#" method="POST">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label>Subscription Preference:</label>
+    <label for="monthly">
+      <input type="radio" id="monthly" name="subscription" value="monthly" required> Monthly
+    </label>
+    <label for="yearly">
+      <input type="radio" id="yearly" name="subscription" value="yearly" required> Yearly
+    </label>
+    
+    <input type="submit" value="Subscribe">
+  </form>
+</body>
+</html>
